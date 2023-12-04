@@ -1,7 +1,7 @@
 // validates and sanitizes strings 
 const validator = require('validator')
 // chalk customizes how text will be displayed to the console
-// const chalk = require('chalk')
+const chalk = require('chalk')
 // build interactive command line tools, by parsing arguments and generating an elegant user interface
 const yargs = require('yargs')
 const notes = require('./notes.js')
