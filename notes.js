@@ -3,6 +3,8 @@ const fs = require('fs')
 // node fs module allows interactions with the file system in a way modeled on standard POSIX(Portable Operating System Interface) functions
 // file system module needs to be loaded in and be defined to be used
 
+const chalk = require('chalk')
+
 const addNote = (title, body) => {
     const notes = loadNotes()
     const duplicateNote = notes.find((note) => note.title === title)
